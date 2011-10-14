@@ -1,10 +1,15 @@
+Baselight-Sync
+==============
+
 sync-baselight.py - provides an interface between shotgun and the baselight to run periodic syncs of /mnt/disk1/images1 and /mnt/muxfs 
                               In the current build the shotgun server is directly interegated each time this script is run. A proxy would help reduce the
 			      overhead that this induces.
 
 version = 1.0.0
 
-####################################################################
+***
+
+## To Use:
 
 crontab for this script:
 
@@ -14,7 +19,9 @@ crontab for  baselight-sync.sh:
 
 0 * * * * bash /var/tmp/baselight-sync.sh    # once every hour on the hour
 
-####################################################################
+***
+
+## Options
 
 Usage: syncbaselight.py [options]
 
